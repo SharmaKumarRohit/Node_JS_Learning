@@ -1,0 +1,19 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "A client wants users to upload a profile picture during registration. The image should be\r saved on the server, and the URL should be stored in the database (for now, simulate\r the database by logging the URL to the console).",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "multer": "^2.0.2"
+  }
+}
